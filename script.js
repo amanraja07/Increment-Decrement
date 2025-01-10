@@ -14,6 +14,6 @@ const decrement = ()=> {
     let value = parseInt(countValue.innerText);
     //Update value .
     value -= 1;
-    //SET VALUE TO THE UI.
+    //SET VALUE ONTO THE UI.
     countValue.innerText = value;
 }
